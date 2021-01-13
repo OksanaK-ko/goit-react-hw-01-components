@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import s from './Friend-list-item.module.css';
 import styled from 'styled-components';
+import s from './Friend-list-item.module.css';
 
 export default function FriendListItem({ avatar, name, isOnline }) {
   const Status = styled.span`
